@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+.title {
+	padding: 0;
+	height: 1000px;
+	width: 1000px;
+}
+
+a:link {
+	color: rgb(14, 13, 5)
+}
+
+a:visited {
+	color:rgb(244, 202, 51)
+}
+
+a:hover {
+	color:#778f17
+}
+
+body {
+	background-image: url("background.png");
+	background-size:     cover;  
+}
+
+header {
+	position: absolute;
+	background-color: #d58f0d;
+	margin-top: 00px;
+	margin-left: 700px;
+	margin-right: 0px;
+	padding-left: 90px;
+	font-size: x-large;
+	height: 110px;
+    width: 400px;
+}
+
+.satteliteinfo {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 620px;
+	margin-left: 932px;
+	margin-right: 0px;
+	padding-left: 2px;
+	padding-right: 39px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height:60px;
+    width: 0px;
+}
+
+.mooninfo {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 385px;
+	margin-left: 734px;
+	margin-right: 0px;
+	padding-left:8px;
+	padding-right: 47px;
+	padding-top: px;
+	padding-bottom: 12px;
+	height:40px;
+    width: 0px;
+}
+.boatinfo {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 233px;
+	margin-left: 924px;
+	margin-right: 0px;
+	padding-left:8px;
+	padding-right: 41px;
+	padding-top: 3px;
+	padding-bottom: 14px;
+	height:40px;
+    width: 0px;
+}
+.boatinfoE {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 203px;
+	margin-left: 424px;
+	margin-right: 0px;
+	padding-left:8px;
+	padding-right: 41px;
+	padding-top: 3px;
+	padding-bottom: 14px;
+	font-size: x-large;
+	height:500px;
+    width: 1000px;
+}
+.planeinfo {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 460px;
+	margin-left: 1130px;
+	margin-right: 0px;
+	padding-left: 6px;
+	padding-right: 44px;
+	padding-top:10px;
+	padding-bottom: 40px;
+	height:30px;
+    width: 0px;
+}
+
+.images {
+	margin-top: 150px;
+	margin-left: 650px;
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+
+.starview {
+	z-index: 2;
+	margin-top: 120px;
+	margin-left: 460px;
+	width: 60%;
+	position: relative;
+	float: left;
+}
+
+
+.planemap {
+	z-index: 2;
+	margin-top: 250px;
+	margin-left: 560px;
+	width: 30%;
+	position: relative;
+	float: left;
+}
+
+.flerfmoon {
+	z-index: 2;
+	margin-top: 160px;
+	margin-left: 510px;
+	width: 50%;
+	position: relative;
+	float: left;
+}
+.images img {
+	height: 100%;
+	width: 200%;
+	width: 600px;
+}
+
+.rightbar {
+	position: absolute;
+	background-color: #a47b1c;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: larger;
+	margin-top: -10px;
+	margin-left: 1350px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top: 18px;
+	width: 400px;
+	height: 980px;
+	float: left;
+}
+
+.bibliography{
+	position: absolute;
+	background-color: #19884b;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: larger;
+	margin-top: -10px;
+	margin-left: 1350px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top: 18px;
+	width: 400px;
+	height: 100px;
+	float: left;
+}
+.navigation {
+	position: absolute;
+	background-color: #a47b1c;
+	font-family: Consolas, "Lucida Sans Typewriter", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	width: 400px;
+	height: 1000px;
+	padding-left: 30px;
+	margin-top: -10px;
+	margin-left: 100px;
+}
+
+.truthnav {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 780px;
+	margin-left: 665px;
+	margin-right: 0px;
+	padding-left: 90px;
+	padding-right: 70px;
+	font-size: xxx-large;
+	height: 140px;
+    width: 400px;
+}
+.moonnav {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 780px;
+	margin-left: 765px;
+	margin-right: 0px;
+	padding-left: 80px;
+	padding-right: 70px;
+	font-size: xxx-large;
+	height: 140px;
+    width: 260 px;
+}
+.boatnav {
+	position: absolute;
+	background-color: #d58f0d;
+	
+	margin-top: 780px;
+	margin-left: 765px;
+	margin-right: 0px;
+	padding-left: 80px;
+	padding-right: 70px;
+	font-size: xxx-large;
+	height: 140px;
+    width: 280 px;
+}
+.moonobserve {
+	position: absolute;
+	background-color: #a27013;
+	
+	margin-top: 400px;
+	margin-left: 465px;
+	margin-right: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: x-large;
+	height:70px;
+    width: 40 px;
+	z-index: 2;
+}
+
+
+.moonobservetext {
+	position: absolute;
+	background-color: #a27013;
+	
+	margin-top: 475px;
+	margin-left: 440px;
+	margin-right: 0px;
+	padding-left: 30px;
+	padding-right: 50px;
+	font-size: x-large;
+	height:245px;
+    width: 480px;
+	z-index: 2;
+}
+.starviewtext {
+	position: absolute;
+	background-color: #a27013;
+	
+	margin-top: 520px;
+	margin-left: 440px;
+	margin-right: 0px;
+	padding-left: 30px;
+	padding-right: 50px;
+	font-size: x-large;
+	height:200px;
+    width: 480px;
+	z-index: 2;
+}
+
+
+
+.planeobserve {
+	position: absolute;
+	background-color: #a27013;
+	
+	margin-top: 430px;
+	margin-left: 465px;
+	margin-right: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: x-large;
+	height:70px;
+    width: 40 px;
+	z-index: 2;
+}
+
+.satteliteobserve {
+	position: absolute;
+	background-color: #a27013;
+	
+	margin-top: 760px;
+	margin-left: 455px;
+	margin-right: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: x-large;
+	height:70px;
+    width: 40 px;
+	z-index: 2;
+}
+
+.boatobserve {
+	position: absolute;
+	background-color: #a27013;
+	
+	margin-top: 445px;
+	margin-left: 455px;
+	margin-right: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: x-large;
+	height:70px;
+    width: 40 px;
+	z-index: 2;
+}
+.outputtext {
+	position: absolute;
+	background-color:#7db01d;
+	margin-top: 80px;
+	margin-left: 20px;
+	padding-left: 20px;
+	height: 800px;
+	width: 1470px;
+	font-size:x-large;
+	z-index: -1;
+}
+.pistontext {
+	position: absolute;
+	background-color:#2a3d06;
+	margin-top: 80px;
+	margin-left: 20px;
+	padding-left: 20px;
+	height: 800px;
+	width: 1400px;
+	z-index: -1;
+}
+
+.enginetext {
+	position: absolute;
+	background-color:#648b1a;
+	margin-top: 80px;
+	margin-left: 20px;
+	padding-left: 20px;
+	height: 800px;
+	width: 1470px;
+	font-size:x-large;
+	z-index: -1;
+}
+.partstext {
+	position: absolute;
+	background-color:#43610b;
+	margin-top: 80px;
+	margin-left: 20px;
+	padding-left: 20px;
+	height: 800px;
+	width: 1470px;
+	font-size:x-large;
+	z-index: -1;
+}
+.output {
+	position: absolute
+}
+
+.outputimg img{
+	margin-top: 150px;
+	margin-left: 500px;
+	width: 500px;
+	position: absolute;
+	float: left;
+}
+
+.partsnav {
+	position: absolute;
+	background-color:#9e9714;
+	padding-left: 10px;
+    height: 150px;
+	width: 170px;
+	margin-top: 100px;
+	margin-left: 1300px;
+    font-size: larger;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.outputnav {
+	position: absolute;
+	background-color:#9e9714;
+	padding-left: 10px;
+    height: 150px;
+	width: 170px;
+	margin-top: 100px;
+	margin-left: 1300px;
+    font-size: larger;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+
+.enginenav {
+	position: absolute;
+	background-color:#b9b00f;
+	padding-left: 10px;
+    height: 150px;
+	width: 170px;
+	margin-top: 100px;
+	margin-left: 1300px;
+    font-size: larger;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+
+
+
+
